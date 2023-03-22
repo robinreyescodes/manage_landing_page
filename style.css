@@ -19,6 +19,8 @@
 
 section {
   margin-bottom: 13rem;
+  font-size: 2rem;
+  overflow: hidden;
 }
 
 .navigation {
@@ -85,10 +87,6 @@ section {
   z-index: -1;
 } */
 
-section {
-  overflow: hidden;
-}
-
 .inform-intro {
   color: var(--clr-primary-400);
   font-size: 2.6rem;
@@ -122,7 +120,8 @@ section {
   width: 100%;
 }
 
-.details li {
+.details li:nth-child(1),
+.details li:nth-child(2) {
   margin-bottom: 5rem;
 }
 .number {
@@ -145,4 +144,34 @@ section {
   font-size: 1.4rem;
   line-height: 2;
   color: hsla(0, 0%, 50%, 0.446);
+}
+
+.testimonials {
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* TESTIMONIAL SECTION */
+
+.customer {
+  min-width: 250px;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.customer img {
+  max-height: 10rem;
+}
+
+.customer .name {
+  color: var(--clr-primary-400);
+  font-size: 1.5rem;
+  margin: 1rem 0 1.6rem 0;
+}
+
+.customer .tst {
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 50%, 0.446);
+  width: 300px;
+  margin: 0 auto;
 }
