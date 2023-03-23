@@ -211,16 +211,61 @@ section {
 }
 
 /* footer section */
-.footer {
-  height: 20vh;
+footer {
   padding: 20px 0px;
   background-color: var(--clr-neutral-100);
   margin-bottom: 0;
   text-align: center;
   display: flex;
+  flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
+}
+
+.updates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-list {
+  font-size: 2.5rem;
+  color: var(--clr-accent-100);
+  font-weight: lighter;
+  display: flex;
+
+  width: 25rem;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.link {
+  list-style: none;
+  font-weight: 100;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.go-btn {
+  border: none;
+  height: 2rem;
+  color: var(--clr-accent-100);
+  background-color: var(--clr-accent-400);
+  width: 4rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+.email {
+  width: 15rem;
+  border-radius: 20px;
+  border: none;
+  height: 2rem;
+  color: var(--clr-primary-400);
+  font-size: 0.8rem;
+  padding: 1.2rem 1rem;
+  font-weight: 100;
 }
 
 .icons {
