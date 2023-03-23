@@ -250,10 +250,11 @@ footer {
 
 .go-btn {
   border: none;
-  height: 2rem;
+
   color: var(--clr-accent-100);
   background-color: var(--clr-accent-400);
-  width: 4rem;
+  width: 5rem;
+  height: 3rem;
   font-size: 1rem;
   border-radius: 2rem;
 }
@@ -270,5 +271,10 @@ footer {
 
 .icons {
   display: flex;
-  gap: 10px;
+
+  gap: 20px;
+}
+
+.icon {
+  height: 30px;
 }
