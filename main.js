@@ -1,20 +1,16 @@
-// const sliderImages = document.querySelectorAll(".slider-image");
-// let currentImage = 0;
+"use strict";
+const hamburger = document.querySelector(".hamburger");
+const closeBtn = document.querySelector(".close");
+const hiddenNav = document.querySelector(".links-navi");
 
-// function reset() {
-//   sliderImages.forEach((image) => {
-//     image.classList.remove("active");
-//   });
-// }
+hamburger.addEventListener("click", () => {
+  hiddenNav.classList.toggle("hide");
+  hamburger.classList.toggle("active");
+  closeBtn.classList.toggle("close");
+});
 
-// function startSlide() {
-//   reset();
-//   sliderImages[currentImage].classList.add("active");
-//   currentImage++;
-//   if (currentImage === sliderImages.length) {
-//     currentImage = 0;
-//   }
-//   setTimeout(startSlide, 5000);
-// }
-
-// startSlide();
+closeBtn.addEventListener("click", () => {
+  hiddenNav.classList.toggle("hide");
+  hamburger.classList.toggle("active");
+  closeBtn.classList.toggle("close");
+});
