@@ -31,6 +31,7 @@ section {
 
 .links-navi {
   position: absolute;
+  top: 10rem;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -62,7 +63,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 3rem;
   margin-bottom: 2rem;
 }
 
